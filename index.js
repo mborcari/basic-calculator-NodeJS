@@ -1,6 +1,6 @@
 const {calcBasic} = require("./calcBasicPuc")
 const express = require("express");
-const port = 3000;
+const port = process.env.PORT || 80;
 const app = express()
 
 // middleware para json no post
